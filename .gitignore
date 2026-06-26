@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.env
+.venv/
+node_data/
+*.key
+*.pem
+atlas_db/
