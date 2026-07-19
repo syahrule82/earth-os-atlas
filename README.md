@@ -15,15 +15,13 @@
 [![ATLAS v3.3](https://img.shields.io/badge/ATLAS-v3.3_EarthOS-orange.svg)]()
 [![Proof of Value](https://img.shields.io/badge/Proof--of--Value-%3E_Proof--of--Work-brightgreen.svg)]()
 [![Testnet](https://img.shields.io/badge/network-testnet-purple.svg)]()
-[![Code Size](https://img.shields.io/github/languages/code-size/KOSASIH/earth-os-atlas)]()
-[![Files](https://img.shields.io/badge/files-150+-blueviolet.svg)]()
-[![Lines of Code](https://img.shields.io/badge/LOC-38,000+-success.svg)]()
-[![Architecture Layers](https://img.shields.io/badge/layers-21-ff69b4.svg)]()
+[![Files](https://img.shields.io/badge/files-160+-blueviolet.svg)]()
+[![Lines of Code](https://img.shields.io/badge/LOC-42,000+-success.svg)]()
+[![Architecture Layers](https://img.shields.io/badge/layers-22-ff69b4.svg)]()
 [![Last Commit](https://img.shields.io/github/last-commit/KOSASIH/earth-os-atlas)]()
 [![Issues](https://img.shields.io/github/issues/KOSASIH/earth-os-atlas)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 [![Stars](https://img.shields.io/github/stars/KOSASIH/earth-os-atlas?style=social)]()
-[![Forks](https://img.shields.io/github/forks/KOSASIH/earth-os-atlas?style=social)]()
 [![Made with TITAN FORGE](https://img.shields.io/badge/Made%20with-TITAN%20FORGE-red.svg)]()
 
 ## 🧠 The Big Idea
@@ -40,53 +38,55 @@ ATLAS is not a cryptocurrency. It's a **value accounting system** — a planetar
 
 ---
 
-## 🏗️ Architecture — 21 Layers
+## 🏗️ Architecture — 22 Layers
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║  LAYER 21: CROSS-DOMAIN INTEGRATION (IoT · Supply Chain · Health) ║
+║  LAYER 22: KNOWLEDGE GRAPH (Semantic Search + Citations)      ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 20: GENESIS PROTOCOL (Zero-to-One Bootstrapping)        ║
+║  LAYER 21: CROSS-DOMAIN INTEGRATION (IoT · Supply · Health)   ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 19: NEURAL-NATIVE ECONOMY (AVA · Dynamic Supply · EHI)  ║
+║  LAYER 20: GENESIS PROTOCOL (Zero-to-One Bootstrapping)       ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 18: SDK ECOSYSTEM (Rust · Go · TypeScript · React)      ║
+║  LAYER 19: NEURAL-NATIVE ECONOMY (AVA · Dynamic Supply · EHI) ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 17: JUSTICE SYSTEM (3-Tier Arbitration + Precedent)     ║
+║  LAYER 18: SDK ECOSYSTEM (Rust · Go · TypeScript · React)     ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 16: NEURAL DEMOCRACY (PNI Voting + Anti-Coercion)       ║
+║  LAYER 17: JUSTICE SYSTEM (3-Tier Arbitration + Precedent)    ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 15: PLANETARY AI CONGRESS (4-Titan Deliberation)        ║
+║  LAYER 16: NEURAL DEMOCRACY (PNI Voting + Anti-Coercion)      ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 14: ATLAS CONSTITUTION (27 Executable Articles)         ║
+║  LAYER 15: PLANETARY AI CONGRESS (4-Titan Deliberation)       ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 13: REST API + Developer Portal                         ║
+║  LAYER 14: ATLAS CONSTITUTION (27 Executable Articles)        ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 12: GOVERNANCE DAO (Quadratic + Conviction Voting)      ║
+║  LAYER 13: REST API + Developer Portal                        ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 11: ECONOMIC ENGINE (Bonding Curves + AMM + Oracles)    ║
+║  LAYER 12: GOVERNANCE DAO (Quadratic + Conviction Voting)     ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 10: VALIDATOR NETWORK (PoS + BLS + Slashing)            ║
+║  LAYER 11: ECONOMIC ENGINE (Bonding Curves + AMM + Oracles)   ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 9: TITAN FORGE (HERMES · PROMETHEUS · GAEA · CHRONOS)   ║
+║  LAYER 10: VALIDATOR NETWORK (PoS + BLS + Slashing)           ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 8: ATLAS LEDGER (Proof-of-Value Blockchain)             ║
+║  LAYER 9: TITAN FORGE (HERMES · PROMETHEUS · GAEA · CHRONOS)  ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 7: SYNAPTIC MESH (BCI-IPv6 Neural Protocol)             ║
+║  LAYER 8: ATLAS LEDGER (Proof-of-Value Blockchain)            ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 6: ZK-VM + AGI VALUE DETECTOR                           ║
+║  LAYER 7: SYNAPTIC MESH (BCI-IPv6 Neural Protocol)            ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 5: QUANTUM NEURAL BRIDGE (Entanglement Consensus)       ║
+║  LAYER 6: ZK-VM + AGI VALUE DETECTOR                          ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 4: INTERPLANETARY MESH (DTN + libp2p + IPFS)            ║
+║  LAYER 5: QUANTUM NEURAL BRIDGE (Entanglement Consensus)      ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 3: UNIVERSAL BASIC COMPUTE (Nanite Marketplace)         ║
+║  LAYER 4: INTERPLANETARY MESH (DTN + libp2p + IPFS)           ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 2: QUANTUM LAYER (Kyber-768 + Dilithium + QRNG)         ║
+║  LAYER 3: UNIVERSAL BASIC COMPUTE (Nanite Marketplace)        ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 1: COGNITIVE STATE ENGINE (FSM + Memory + Valence)      ║
+║  LAYER 2: QUANTUM LAYER (Kyber-768 + Dilithium + QRNG)        ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  SUBSTRATE: NANITE MESH (1B+ Nano-Computation Nodes)           ║
+║  LAYER 1: COGNITIVE STATE ENGINE (FSM + Memory + Valence)     ║
+╠═══════════════════════════════════════════════════════════════╣
+║  SUBSTRATE: NANITE MESH (1B+ Nano-Computation Nodes)          ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
@@ -165,21 +165,28 @@ client := atlas.NewClient("http://localhost:8000")
 proof, _ := client.CreateProof(ctx, "did:atlas:alice", atlas.CategoryCreatedKnowledge, atlas.TierMedium, 8.0)
 ```
 
-### Deploy with Docker
-```bash
-docker-compose up -d
-```
-
-### Deploy with Kubernetes (Helm)
-```bash
-helm install atlas ./deploy/helm/atlas --namespace atlas-mainnet
-```
-
 ---
 
 ## 🧪 Testnet
 
-See [TESTNET.md](TESTNET.md) for full testnet documentation including node setup, faucet, validator registration, PNI device pairing, API endpoints, and monitoring.
+See [TESTNET.md](TESTNET.md) for full testnet documentation.
+
+---
+
+## 📊 Project Stats
+
+| Metric | Value |
+|--------|-------|
+| Architecture Layers | 22 |
+| Source Files | 160+ |
+| Lines of Code | 42,000+ |
+| Smart Contracts | 3 Solidity |
+| SDK Languages | 4 (Python, TS, Rust, Go) |
+| Test Suites | 10 phases |
+| Deployment Options | Docker, K8s, Helm, Terraform |
+| Value Categories | 12 |
+| Constitution Articles | 27 |
+| Supported PNI Devices | 7 |
 
 ---
 
@@ -222,10 +229,11 @@ earth-os-atlas/
 │   ├── genesis/             # Genesis protocol, cold start solver
 │   ├── cross_domain/        # IoT, supply chain, health, weather
 │   ├── disaster_relief/     # Emergency resource allocation
-│   └── reputation_graph/    # Global trust network
+│   ├── reputation_graph/    # Global trust network
+│   └── knowledge_graph/     # Semantic search, citations, synthesis
 ├── contracts/               # Solidity smart contracts
 ├── sdk/                     # TypeScript, Rust, Go SDKs
-├── tests/                   # Full test suite (9 phases)
+├── tests/                   # Full test suite (10 phases)
 ├── deploy/                  # K8s, Helm, Terraform, monitoring
 ├── docker/                  # Containerization
 ├── docs/                    # Documentation
@@ -236,23 +244,6 @@ earth-os-atlas/
 ├── CODE_OF_CONDUCT.md       # Community standards
 └── CHANGELOG.md             # Full history
 ```
-
----
-
-## 📊 Project Stats
-
-| Metric | Value |
-|--------|-------|
-| Architecture Layers | 21 |
-| Source Files | 150+ |
-| Lines of Code | 38,000+ |
-| Smart Contracts | 3 Solidity |
-| SDK Languages | 4 (Python, TS, Rust, Go) |
-| Test Suites | 9 phases |
-| Deployment Options | Docker, K8s, Helm, Terraform |
-| Value Categories | 12 |
-| Constitution Articles | 27 |
-| Supported PNI Devices | 7 (OpenBCI, g.tec, Emotiv, Muse) |
 
 ---
 
