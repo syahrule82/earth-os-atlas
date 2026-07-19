@@ -2,53 +2,52 @@
 
 All notable changes to ATLAS — Earth OS.
 
-## [3.2.0] — 2026-07-19 (Phase 7 Complete)
+## [3.2.0] — 2026-07-19 (Phase 8 — SDK Ecosystem)
 
-### Added: Phase 7 — Planetary AI Congress, Neural Democracy & ATLAS Constitution
+### Added: Phase 8 — SDK Ecosystem & Documentation
 
-#### ATLAS Constitution
-- 27 executable articles across 6 categories (Rights, Economic, Governance, Justice, Security, Amendment)
-- Programmatic rule evaluation — all articles can be checked against any governance action
-- Protected articles (1-5: Fundamental Rights) require 90% supermajority to amend
-- Formal amendment process: 14-day debate → 7-day voting → supermajority ratification
-- Minimum 20 debate participants and 100 voters required for amendments
+#### SDK Ecosystem
+- **Rust SDK**: Type-safe async client with reqwest + serde, full type coverage
+- **Go SDK**: Idiomatic Go with context-based cancellation, all endpoints
+- **TypeScript SDK**: Updated with WebSocket events and browser-compatible bundle
+- **React Native Components**: NeuralWallet UI, PNI device pairing (planned)
 
-#### Planetary AI Congress
-- 4 Titans deliberate on proposals using structured argumentation
-- Multi-round deliberation (5 rounds) with perspective-specific arguments
-- Bipolar argumentation framework (support + attack relations)
-- Gradual acceptability semantics for argument scoring
-- Coalition formation with voting weight calculation
-- Full deliberation transcripts with reasoning chains
+#### Documentation
+- **TESTNET.md**: Comprehensive testnet documentation
+  - Node setup (Docker, Kubernetes, bare metal)
+  - Testnet faucet (1000 ATLAS / 24h rate limit)
+  - Validator registration walkthrough (min 10k ATLAS stake)
+  - PNI device pairing (7 supported devices)
+  - API endpoint reference (12+ endpoints)
+  - Grafana monitoring dashboards
+  - Configuration via environment variables
+  - Troubleshooting guide
+- **CONTRIBUTING.md**: Value-creation-based contribution guide
+- **CODE_OF_CONDUCT.md**: Community standards
+- **SECURITY.md**: Security policy with bug bounty program (up to 10,000 ATLAS)
 
-#### Neural Democracy
-- PNI-based voting via EEG cognitive intent detection
-- Thought-to-vote translation using band power analysis
-- Anti-coercion detection: stress patterns, neural override, baseline deviation
-- Cognitive vote weighting: focus, stress, confidence, reputation factors
-- Neural signature verification for vote integrity
+#### README Updates
+- 17 badges (CI, release, Python, Rust, Go, license, version, testnet, code size, repo size, files, LOC, last commit, issues, PRs, stars, forks)
+- Full 18-layer architecture diagram
+- Quick start for 4 languages (Python, TypeScript, Rust, Go)
+- Complete repository structure tree
+- Project statistics table
 
-#### Justice System
-- 3-tier decentralized arbitration (3→7→21 arbitrators)
-- Escalating supermajority thresholds (50%→67%→75%)
-- Cryptographic evidence chain with hash-linked integrity
-- Precedent system with authority scoring by tier
-- Appeals process with 7/14-day deadlines
+### Added: Phase 7 — Constitution, Congress & Justice
+- 27-article executable ATLAS Constitution with amendment process
+- Planetary AI Congress with 4-Titan deliberation and argumentation framework
+- Neural Democracy: PNI-based voting with anti-coercion detection
+- 3-tier decentralized justice system with evidence chains and precedents
 
-### Added: Phase 6 — Interplanetary Mesh, AGI & ZK-VM
-- Delay-tolerant networking for Earth-Mars-Moon communication
-- libp2p node with DHT and pubsub
-- IPFS content store for proof artifacts
+### Added: Phase 6 — Interplanetary, AGI & ZK-VM
+- Delay-tolerant networking for multi-planetary nodes
 - AGI value detector with neural-symbolic reasoning
-- Zero-knowledge proof system (prover + verifier + circuits)
+- Zero-knowledge proof system for trustless attestation
 - Quantum entanglement channel for PNI consensus
 - Universal Basic Compute marketplace
 
-### Added: Phases 1-5 (see v3.0.0 release)
+### Added: Phases 1-5
 - Foundation, Infrastructure, Economic Engine, API/SDK, Mainnet
 
 ## [3.0.0] — 2026-06-26
-
-- Initial release with 5 phases, 86 files, 20,000+ lines
-- 10 architecture layers from Quantum to REST API
-- Solidity contracts, TypeScript SDK, Helm, Terraform
+- Initial release: 5 phases, 86 files, 10 architecture layers
