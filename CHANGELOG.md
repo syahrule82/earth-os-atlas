@@ -2,56 +2,53 @@
 
 All notable changes to ATLAS — Earth OS.
 
-## [3.0.0] — 2026-06-26 (Phase 4 Complete)
+## [3.2.0] — 2026-07-19 (Phase 7 Complete)
 
-### Added: Phase 4 — API, Contracts & SDKs
-- **REST API** (FastAPI): `/v1/proof`, `/v1/ledger`, `/v1/dao`, `/v1/analytics`
-- **Solidity Contracts**: ATLASToken, ProofRegistry, GovernanceDAO, Bridge, Treasury
-- **TypeScript SDK**: Full type definitions, WebSocket events, ESM bundle
-- **Kubernetes Helm chart** for one-command deployment
-- **Grafana alerting rules** for production monitoring
-- **Comprehensive API documentation**
+### Added: Phase 7 — Planetary AI Congress, Neural Democracy & ATLAS Constitution
 
-### Added: Phase 3 — Economic Engine & Governance
-- **Bonding curves**: Linear, Exponential, Logarithmic price discovery
-- **AMM pools**: Constant product with fee tiers and liquidity positions
-- **TWAP Oracle**: Time-weighted average price with multi-source aggregation
-- **DAO Treasury**: Programmable allocation with proportional/quadratic strategies
-- **GovernanceDAO**: Quadratic voting, conviction voting, 7-day proposal periods
-- **Reputation System**: Soulbound tokens, contribution records, recency decay
-- **DID:atlas Identity**: Verifiable credentials, zk-SNARK proofs
-- **Cross-chain Bridges**: Ethereum, Solana, Cosmos IBC
-- **PNI Bridge**: OpenBCI, g.tec, Emotiv EEG adapters
-- **Economic Simulator**: Agent-based modeling, Gini coefficient, stress testing
-- **Kubernetes manifests**: 3-replica testnet deployment
-- **Grafana dashboard**: 6-panel production monitoring
+#### ATLAS Constitution
+- 27 executable articles across 6 categories (Rights, Economic, Governance, Justice, Security, Amendment)
+- Programmatic rule evaluation — all articles can be checked against any governance action
+- Protected articles (1-5: Fundamental Rights) require 90% supermajority to amend
+- Formal amendment process: 14-day debate → 7-day voting → supermajority ratification
+- Minimum 20 debate participants and 100 voters required for amendments
 
-### Added: Phase 2 — Distributed Infrastructure
-- **Mesh Protocol**: Full PNI/BCI-IPv6 stack, thought packets, neural addressing
-- **HERMES Network**: Global sensor mesh, multi-modal fusion, category detection
-- **ATLAS Ledger**: Proof-of-Value blockchain, account state, consensus
-- **Titan Forge**: Orchestrator, workflow engine, system metrics
-- **Quantum Layer**: Kyber-768, Dilithium, QRNG, quantum consensus
-- **Docker/Compose**: Containerized node deployment
-- **CI/CD Release**: Automated PyPI publishing
+#### Planetary AI Congress
+- 4 Titans deliberate on proposals using structured argumentation
+- Multi-round deliberation (5 rounds) with perspective-specific arguments
+- Bipolar argumentation framework (support + attack relations)
+- Gradual acceptability semantics for argument scoring
+- Coalition formation with voting weight calculation
+- Full deliberation transcripts with reasoning chains
 
-### Added: Phase 1 — Foundation
-- **4 Titans**: HERMES, PROMETHEUS, GAEA, CHRONOS agents
-- **ATLAS Core**: ValueRecognizer (12 categories), PROMETHEUSValidator, ATLASMinter
-- **Cognitive State**: FSM, memory graph, attention engine, valence tracker
-- **Synaptic Mesh**: Thought packets, neural addresses, Dijkstra routing
-- **Quantum**: Post-quantum crypto, lattice keys, quantum consensus
-- **Nanite Mesh**: Nano-computation substrate simulation
-- **Test Suite**: 40+ tests across all modules
+#### Neural Democracy
+- PNI-based voting via EEG cognitive intent detection
+- Thought-to-vote translation using band power analysis
+- Anti-coercion detection: stress patterns, neural override, baseline deviation
+- Cognitive vote weighting: focus, stress, confidence, reputation factors
+- Neural signature verification for vote integrity
 
-## [2.0.0] — 2026-05-18 (protocol-zero)
+#### Justice System
+- 3-tier decentralized arbitration (3→7→21 arbitrators)
+- Escalating supermajority thresholds (50%→67%→75%)
+- Cryptographic evidence chain with hash-linked integrity
+- Precedent system with authority scoring by tier
+- Appeals process with 7/14-day deadlines
 
-- Initial protocol-zero repository
-- BCI-IPv6 protocol specification
-- Basic thought packet structure
+### Added: Phase 6 — Interplanetary Mesh, AGI & ZK-VM
+- Delay-tolerant networking for Earth-Mars-Moon communication
+- libp2p node with DHT and pubsub
+- IPFS content store for proof artifacts
+- AGI value detector with neural-symbolic reasoning
+- Zero-knowledge proof system (prover + verifier + circuits)
+- Quantum entanglement channel for PNI consensus
+- Universal Basic Compute marketplace
 
-## [1.0.0] — 2026-05-01 (genesis)
+### Added: Phases 1-5 (see v3.0.0 release)
+- Foundation, Infrastructure, Economic Engine, API/SDK, Mainnet
 
-- Project inception: The Living Economic Operating System
-- TITAN FORGE design philosophy
-- Earth OS thesis: Proof-of-Value > Proof-of-Work
+## [3.0.0] — 2026-06-26
+
+- Initial release with 5 phases, 86 files, 20,000+ lines
+- 10 architecture layers from Quantum to REST API
+- Solidity contracts, TypeScript SDK, Helm, Terraform
