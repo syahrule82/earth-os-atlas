@@ -2,49 +2,55 @@
 
 All notable changes to ATLAS — Earth OS.
 
-## [3.2.0] — 2026-07-19 (Phase 8 — SDK Ecosystem)
+## [3.3.0] — 2026-07-19 (Phase 9 — Neural-Native Economy)
+
+### Added: Phase 9 — Neural-Native Economy, Genesis Protocol & Cross-Domain Integration
+
+#### Neural-Native Economy
+- **Autonomous Value Agents (AVA)**: AI agents that create value 24/7 (documentation, bug fixes, optimization, security monitoring)
+- **Dynamic Supply Engine**: Velocity-adjusted minting with burn mechanisms (deflationary pressure)
+- **Economic Health Index**: Composite metric (Gini + velocity + participation + innovation + growth)
+- **Value Flow Graph**: Real-time global value flow tracking and visualization
+
+#### Genesis Protocol
+- **Zero-to-One bootstrapping**: How ATLAS starts from an empty ledger
+- **Genesis allocation**: 6-way split (contributors 30%, treasury 25%, liquidity 15%, community 15%, validators 10%, team 5%)
+- **Cold Start Solver**: Early adopter bonuses (3x for first 100, 2.5x for next 400, 2x for next 500)
+- **Adoption Curve**: Bass diffusion model with Metcalfe's law network effects
+- **5-phase bootstrap plan**: Genesis → Seeding → Growth → Critical Mass → Maturity
+
+#### Cross-Domain Integration
+- **Weather Bridge**: Ecological value from weather events (drought, flood, wildfire)
+- **Supply Chain Bridge**: Logistics efficiency and carbon tracking
+- **Healthcare Bridge**: Medical outcome tracking for HEALED_BIOLOGICAL value
+- **Agriculture Bridge**: Crop yield and water efficiency
+- **Education Bridge**: Learning outcomes for CREATED_KNOWLEDGE value
+- **Domain Gateway**: Unified API for all real-world data sources
+
+#### Disaster Relief Protocol
+- HERMES-powered emergency resource allocation
+- 3x emergency minting multiplier for disaster relief
+- Priority-based resource routing
+- GAEA verification + PROMETHEUS fairness validation
+
+#### Reputation Graph
+- Global trust network with PageRank-style scoring
+- Reputation flows through attestation edges
+- Attesting to high-reputation nodes increases your own
 
 ### Added: Phase 8 — SDK Ecosystem & Documentation
-
-#### SDK Ecosystem
-- **Rust SDK**: Type-safe async client with reqwest + serde, full type coverage
-- **Go SDK**: Idiomatic Go with context-based cancellation, all endpoints
-- **TypeScript SDK**: Updated with WebSocket events and browser-compatible bundle
-- **React Native Components**: NeuralWallet UI, PNI device pairing (planned)
-
-#### Documentation
-- **TESTNET.md**: Comprehensive testnet documentation
-  - Node setup (Docker, Kubernetes, bare metal)
-  - Testnet faucet (1000 ATLAS / 24h rate limit)
-  - Validator registration walkthrough (min 10k ATLAS stake)
-  - PNI device pairing (7 supported devices)
-  - API endpoint reference (12+ endpoints)
-  - Grafana monitoring dashboards
-  - Configuration via environment variables
-  - Troubleshooting guide
-- **CONTRIBUTING.md**: Value-creation-based contribution guide
-- **CODE_OF_CONDUCT.md**: Community standards
-- **SECURITY.md**: Security policy with bug bounty program (up to 10,000 ATLAS)
-
-#### README Updates
-- 17 badges (CI, release, Python, Rust, Go, license, version, testnet, code size, repo size, files, LOC, last commit, issues, PRs, stars, forks)
-- Full 18-layer architecture diagram
-- Quick start for 4 languages (Python, TypeScript, Rust, Go)
-- Complete repository structure tree
-- Project statistics table
+- Rust SDK, Go SDK, updated TypeScript SDK
+- TESTNET.md, CONTRIBUTING.md, SECURITY.md, CODE_OF_CONDUCT.md
+- 17-badge README with 18-layer architecture diagram
 
 ### Added: Phase 7 — Constitution, Congress & Justice
-- 27-article executable ATLAS Constitution with amendment process
-- Planetary AI Congress with 4-Titan deliberation and argumentation framework
-- Neural Democracy: PNI-based voting with anti-coercion detection
-- 3-tier decentralized justice system with evidence chains and precedents
+- 27-article executable ATLAS Constitution
+- Planetary AI Congress with 4-Titan deliberation
+- Neural Democracy: PNI voting with anti-coercion
+- 3-tier decentralized justice system
 
 ### Added: Phase 6 — Interplanetary, AGI & ZK-VM
-- Delay-tolerant networking for multi-planetary nodes
-- AGI value detector with neural-symbolic reasoning
-- Zero-knowledge proof system for trustless attestation
-- Quantum entanglement channel for PNI consensus
-- Universal Basic Compute marketplace
+- Delay-tolerant networking, AGI value detector, ZK proofs, quantum bridge, UBC
 
 ### Added: Phases 1-5
 - Foundation, Infrastructure, Economic Engine, API/SDK, Mainnet
