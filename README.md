@@ -14,7 +14,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![ATLAS v3.3](https://img.shields.io/badge/ATLAS-v3.3_EarthOS-orange.svg)]()
 [![Proof of Value](https://img.shields.io/badge/Proof--of--Value-%3E_Proof--of--Work-brightgreen.svg)]()
-[![Testnet](https://img.shields.io/badge/network-testnet-purple.svg)]()
+[![Network: Mainnet](https://img.shields.io/badge/network-mainnet-success.svg)]()
 [![Files](https://img.shields.io/badge/files-160+-blueviolet.svg)]()
 [![Lines of Code](https://img.shields.io/badge/LOC-42,000+-success.svg)]()
 [![Architecture Layers](https://img.shields.io/badge/layers-22-ff69b4.svg)]()
@@ -147,7 +147,7 @@ pytest tests/ -v
 ### TypeScript
 ```typescript
 import { createAtlasClient } from '@atlas-os/sdk';
-const atlas = createAtlasClient({ rpcUrl: 'http://localhost:8000', network: 'testnet' });
+const atlas = createAtlasClient({ rpcUrl: 'http://localhost:8000', network: 'mainnet' });
 const proof = await atlas.createProof('did:atlas:alice', 'CREATED_KNOWLEDGE', 'medium', 8.0);
 const minted = await atlas.mint(proof.proof_id, 0.9);
 ```
