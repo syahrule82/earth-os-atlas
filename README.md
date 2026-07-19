@@ -1,4 +1,4 @@
-# 🌐 EARTH OS — ATLAS v3.3
+# 🌐 EARTH OS — ATLAS v3.6
 
 > **The Living Economic Operating System. Forged by TITAN FORGE.**
 >
@@ -12,12 +12,12 @@
 [![Rust 1.75+](https://img.shields.io/badge/rust-1.75+-orange.svg)](https://www.rust-lang.org/)
 [![Go 1.21+](https://img.shields.io/badge/go-1.21+-00ADD8.svg)](https://go.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![ATLAS v3.3](https://img.shields.io/badge/ATLAS-v3.3_EarthOS-orange.svg)]()
+[![ATLAS v3.6](https://img.shields.io/badge/ATLAS-v3.6_EarthOS-orange.svg)]()
 [![Proof of Value](https://img.shields.io/badge/Proof--of--Value-%3E_Proof--of--Work-brightgreen.svg)]()
 [![Network: Mainnet](https://img.shields.io/badge/network-mainnet-success.svg)]()
-[![Files](https://img.shields.io/badge/files-160+-blueviolet.svg)]()
-[![Lines of Code](https://img.shields.io/badge/LOC-42,000+-success.svg)]()
-[![Architecture Layers](https://img.shields.io/badge/layers-22-ff69b4.svg)]()
+[![Files](https://img.shields.io/badge/files-220+-blueviolet.svg)]()
+[![Lines of Code](https://img.shields.io/badge/LOC-62,000+-success.svg)]()
+[![Architecture Layers](https://img.shields.io/badge/layers-28-ff69b4.svg)]()
 [![Last Commit](https://img.shields.io/github/last-commit/KOSASIH/earth-os-atlas)]()
 [![Issues](https://img.shields.io/github/issues/KOSASIH/earth-os-atlas)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
@@ -38,17 +38,29 @@ ATLAS is not a cryptocurrency. It's a **value accounting system** — a planetar
 
 ---
 
-## 🏗️ Architecture — 22 Layers
+## 🏗️ Architecture — 28 Layers
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║  LAYER 22: KNOWLEDGE GRAPH (Semantic Search + Citations)      ║
+║  LAYER 28: DEVELOPER PORTAL (API Explorer · Sandbox · Playground) ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 21: CROSS-DOMAIN INTEGRATION (IoT · Supply · Health)   ║
+║  LAYER 27: ANALYTICS & VISUALIZATION (Dashboards · Forecasting)║
+╠═══════════════════════════════════════════════════════════════╣
+║  LAYER 26: PROTOCOL BRIDGE (Gateway · Connectors · Webhooks)  ║
+╠═══════════════════════════════════════════════════════════════╣
+║  LAYER 25: IDENTITY LAYER (DID · Soulbound · MFA · ZK Proofs) ║
+╠═══════════════════════════════════════════════════════════════╣
+║  LAYER 24: SUSTAINABILITY (Carbon · Biodiversity · ESG)       ║
+╠═══════════════════════════════════════════════════════════════╣
+║  LAYER 23: LEARNING ENGINE (Federated · AI Marketplace)       ║
+╠═══════════════════════════════════════════════════════════════╣
+║  LAYER 22: KNOWLEDGE GRAPH (Semantic Search · Citations)      ║
+╠═══════════════════════════════════════════════════════════════╣
+║  LAYER 21: CROSS-DOMAIN (IoT · Supply · Health · Agriculture) ║
 ╠═══════════════════════════════════════════════════════════════╣
 ║  LAYER 20: GENESIS PROTOCOL (Zero-to-One Bootstrapping)       ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  LAYER 19: NEURAL-NATIVE ECONOMY (AVA · Dynamic Supply · EHI) ║
+║  LAYER 19: NEURAL-NATIVE ECONOMY (AVA · Dynamic Supply)       ║
 ╠═══════════════════════════════════════════════════════════════╣
 ║  LAYER 18: SDK ECOSYSTEM (Rust · Go · TypeScript · React)     ║
 ╠═══════════════════════════════════════════════════════════════╣
@@ -177,16 +189,18 @@ See [TESTNET.md](TESTNET.md) for full testnet documentation.
 
 | Metric | Value |
 |--------|-------|
-| Architecture Layers | 22 |
-| Source Files | 160+ |
-| Lines of Code | 42,000+ |
+| Architecture Layers | 28 |
+| Source Files | 220+ |
+| Lines of Code | 62,000+ |
 | Smart Contracts | 3 Solidity |
 | SDK Languages | 4 (Python, TS, Rust, Go) |
-| Test Suites | 10 phases |
+| Test Suites | 16 phases |
 | Deployment Options | Docker, K8s, Helm, Terraform |
 | Value Categories | 12 |
 | Constitution Articles | 27 |
 | Supported PNI Devices | 7 |
+| Developer Tutorials | 7 |
+| Pre-built Dashboards | 5 |
 
 ---
 
@@ -230,10 +244,16 @@ earth-os-atlas/
 │   ├── cross_domain/        # IoT, supply chain, health, weather
 │   ├── disaster_relief/     # Emergency resource allocation
 │   ├── reputation_graph/    # Global trust network
-│   └── knowledge_graph/     # Semantic search, citations, synthesis
+│   ├── knowledge_graph/     # Semantic search, citations, synthesis
+│   ├── learning_engine/     # Federated training, AI marketplace
+│   ├── sustainability/      # Carbon credits, biodiversity, ESG
+│   ├── identity_layer/      # DID, soulbound tokens, MFA, recovery
+│   ├── protocol_bridge/     # Gateway, connectors, webhooks, SDK gen
+│   ├── analytics_viz/       # Dashboards, forecasting, alerts
+│   └── developer_portal/    # API explorer, sandbox, tutorials
 ├── contracts/               # Solidity smart contracts
 ├── sdk/                     # TypeScript, Rust, Go SDKs
-├── tests/                   # Full test suite (10 phases)
+├── tests/                   # Full test suite (16 phases)
 ├── deploy/                  # K8s, Helm, Terraform, monitoring
 ├── docker/                  # Containerization
 ├── docs/                    # Documentation
