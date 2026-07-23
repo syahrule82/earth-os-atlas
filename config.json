@@ -1,0 +1,16 @@
+{
+    "spesifikasi_sistem": {
+        "nama_teras": "Earth OS Atlas - Nusantara Node",
+        "versi_binaan": "1.0.0-autonomi"
+    },
+    "jambatan_rangkaian": {
+        "titik_tumpu_api": "http://127.0.0.1:8080",
+        "terowong_kuantum_dns": "aktif"
+    },
+    "klausul_kewangan_pintar": {
+        "matawang_asas": "Pi",
+        "konsensus_gcv_mutlak": 314159.00,
+        "pengesahan_soroban": true,
+        "radar_perundangan_pirc": "hidup"
+    }
+}
