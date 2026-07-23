@@ -1,0 +1,34 @@
+name: Teras Kuantum (God Mode Receiver)
+
+on:
+  repository_dispatch:
+    types: [god_mode_activation]
+
+permissions:
+  contents: write
+
+jobs:
+  pengaktifan_god_mode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Menyemak Kod Repositori
+        uses: actions/checkout@v3
+        
+      - name: 2. Menerima Isyarat dari Terminal Kubu StealthX
+        run: echo "Isyarat God Mode Diterima."
+          
+      - name: 3. Pendaftaran Bukti Isyarat (Versi Awam)
+        run: |
+          echo "=================================================" > log_penerimaan_awan.txt
+          echo "EARTH OS ATLAS - PENGESAHAN NADI KUANTUM" >> log_penerimaan_awan.txt
+          echo "Tarikh/Masa: $(date)" >> log_penerimaan_awan.txt
+          echo "Status: Disegerakkan oleh Automasi Terminal Pusat." >> log_penerimaan_awan.txt
+          echo "=================================================" >> log_penerimaan_awan.txt
+          
+      - name: 4. Auto-Commit ke Repositori
+        run: |
+          git config --global user.name "Pro Quantum Automasi"
+          git config --global user.email "automasi@stealthx.local"
+          git add log_penerimaan_awan.txt
+          git commit -m "Auto-Update: Menerima Arahan Pelancar Induk" || echo "Tiada perubahan"
+          git push
